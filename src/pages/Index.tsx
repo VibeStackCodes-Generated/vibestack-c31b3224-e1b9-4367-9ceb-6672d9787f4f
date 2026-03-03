@@ -116,8 +116,8 @@ const Index = () => {
             <Button className="bg-gold text-foreground hover:bg-gold/90 font-sans">
               Reserve a stay
             </Button>
-            <Button variant="outline" className="border-gold text-gold font-sans">
-              Explore experiences
+            <Button variant="outline" className="border-gold text-gold font-sans" asChild>
+              <a href="#experience">Explore experiences</a>
             </Button>
           </div>
         </div>
@@ -169,7 +169,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 md:py-28 px-6 bg-secondary">
+      <section className="py-20 md:py-28 px-6 bg-secondary" id="experience">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-end justify-between gap-6 flex-wrap">
             <div>
